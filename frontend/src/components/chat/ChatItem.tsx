@@ -61,7 +61,7 @@ const ChatItem = ({
             isCodeBlock(block) ? (
               <SyntaxHighlighter
                 style={coldarkDark}
-                language={getCodeLanguage(block)}
+                language={"javascript"}
               >
                 {block}
               </SyntaxHighlighter>
@@ -87,7 +87,7 @@ const ChatItem = ({
             isCodeBlock(block) ? (
               <SyntaxHighlighter
                 style={coldarkDark}
-                language={getCodeLanguage(block)}
+                language="javascript"
               >
                 {block}
               </SyntaxHighlighter>
